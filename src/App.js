@@ -15,8 +15,8 @@ class App extends Component {
                     <h1 className={classes.AppTitle}>Welcome to Responsive App Demo</h1>
                 </header>
                 <Switch >
-                    <Route path="/customer" exact component={CustomerInfo} />
-                    <Redirect to="customer" />
+                    <Route path="/responsive-demo" exact component={CustomerInfo} />
+                    <Redirect to="/responsive-demo" />
                 </Switch>
             </div>
         );
