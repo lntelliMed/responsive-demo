@@ -1,0 +1,42 @@
+.CustomerAddress {
+    width: 90%;
+    margin: auto;
+    height: 250px;
+    padding: 3em 3em 1em;
+    background: #eeeeee;
+    border: 1px solid rgb(212, 231, 201);
+}
+
+.CustomerAddress fieldset {
+    padding: 2px;
+    margin: auto;
+    height: 180px;
+    width: 100px;
+}
+
+.ButtonGroup {
+  display:flex;
+  flex-direction: row;
+  padding: 2px;
+}
+
+.ButtonGroup .Button {
+    position: relative;
+    top: 30px;
+    padding: 0.5em 3em;
+    width: 50%;
+    color: white;
+    background: rgb(109, 188, 252);
+    transition: all 1s ease;
+}
+
+.ButtonGroup .Button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 1px 6px 0px #62d9f7;
+}
+
+@media only screen and (min-width: 501px) {
+  .ButtonGroup .Button {
+    margin: auto;
+  }
+}

@@ -1,0 +1,19 @@
+.CustomerInfo {
+    order: 1px solid gray;
+    padding-top: 3px;
+}
+
+.CustomerInfo * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.CustomerInfo body {
+    font-family: 'Lato';
+    width: 100vw;
+    position: relative;
+    height: 100vh;
+    padding: 0;
+    background: rgba(0, 0, 0, 0.02);
+}

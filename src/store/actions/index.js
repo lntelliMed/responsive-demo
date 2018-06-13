@@ -1,0 +1,3 @@
+export {
+  changeWindowWidth
+} from './currentWindowWidth';
