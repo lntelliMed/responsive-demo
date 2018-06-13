@@ -1,10 +1,13 @@
 .CustomerInfo {
-    order: 1px solid gray;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1px solid gray;
+            order: 1px solid gray;
     padding-top: 3px;
 }
 
 .CustomerInfo * {
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
